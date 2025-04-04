@@ -20,7 +20,7 @@
   </div>
 
   <script>
-    const serverUrl = 'wss://your-websocket-server-url'; // Replace with your WebSocket server URL
+    const serverUrl = 'wss://echo.websocket.org'; // WebSocket Echo Server URL
     const socket = new WebSocket(serverUrl);
 
     socket.onmessage = function(event) {
